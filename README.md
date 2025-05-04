@@ -11,11 +11,10 @@
 
 2. **檢查程式碼**
 確保目錄下有以下檔案：
-
 * package.json
 * index.js
 * Dockerfile
 
 3. **建構 Docker 映像**
    ```bash
-   docker build -t yourname/hello-docker:latest .
+   docker build -t wesleytu/2025cloud:latest .
