@@ -26,6 +26,5 @@
    ```
    或使用本機 build 出來的：
    ```bash
-   docker run --rm <your-username>/2025cloud:latest
+   docker run --rm wesleytu/2025cloud:latest
    ```
-   
