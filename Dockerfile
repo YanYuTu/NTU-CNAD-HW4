@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:invalid-tag
 WORKDIR /app
 
 COPY package.json ./
