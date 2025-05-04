@@ -11,15 +11,15 @@
    ```
 2. **檢查程式碼**  
 確保目錄下有以下檔案：
-* package.json
-* index.js
-* Dockerfile
+   * package.json
+   * index.js
+   * Dockerfile
 
-3. **建構 Docker 映像**
+1. **建構 Docker 映像**
    ```bash
    docker build -t wesleytu/2025cloud:latest .
    ```
-4. **Run container**  
+2. **Run container**  
    直接從 Docker Hub 拉取已上傳的映像並執行：
    ```bash
    docker run --rm wesleytu/2025cloud:latest  
