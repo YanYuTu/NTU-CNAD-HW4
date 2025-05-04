@@ -8,8 +8,8 @@
    ```bash
    git clone https://github.com/YanYuTu/NTU-CNAD-HW4.git
    cd NTU-CNAD-HW4
-
-2. **檢查程式碼**
+   ```
+2. **檢查程式碼**  
 確保目錄下有以下檔案：
 * package.json
 * index.js
@@ -18,3 +18,14 @@
 3. **建構 Docker 映像**
    ```bash
    docker build -t wesleytu/2025cloud:latest .
+   ```
+4. **Run container**  
+   直接從 Docker Hub 拉取已上傳的映像並執行：
+   ```bash
+   docker run --rm wesleytu/2025cloud:latest  
+   ```
+   或使用本機 build 出來的：
+   ```bash
+   docker run --rm <your-username>/2025cloud:latest
+   ```
+   
